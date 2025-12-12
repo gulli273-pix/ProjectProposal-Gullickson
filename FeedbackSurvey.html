@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Feedback Survey</h1>
+    <form>
+        <label for="usefulness">How useful did you find the website?</label><br>
+        <select id="usefulness" name="usefulness">
+            <option value="very_useful">Very Useful</option>
+            <option value="somewhat_useful">Somewhat Useful</option>
+            <option value="not_useful">Not Useful</option>
+        </select><br><br>
+
+        <label for="features">Which features did you find most helpful? (Select all that apply)</label><br>
+        <input type="checkbox" id="classes" name="features" value="classes">
+        <label for="classes">Classes Offered</label><br>
+        <input type="checkbox" id="cafeteria" name="features" value="cafeteria">
+        <label for="cafeteria">Cafeteria Menu</label><br>
+        <input type="checkbox" id="staff" name="features" value="staff">
+        <label for="staff">Meet the Staff</label><br>
+        <input type="checkbox" id="events" name="features" value="events">
+        <label for="events">Upcoming Events</label><br><br>
+
+        <label for="improvements">What improvements would you suggest for the website?</label><br>
+        <textarea id="improvements" name="improvements" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+    <br>
+    <br>    
+    <input type="button" value="Back to Homepage" id="homeBtn" onclick="location.href='index.html'">
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

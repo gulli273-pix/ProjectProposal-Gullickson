@@ -1,0 +1,100 @@
+
+/*STYLE ACROSS PAGES*/
+
+html {
+    background-image: url(images/prhslogo.png);
+    background-size: cover;
+}
+
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: larger;
+}
+
+/*CHANGE COLOR BUTTON*/
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+#homeBtn {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: gold;
+    color: goldenrod;
+    bottom: 10px;
+}
+
+
+/*HOMEPAGE BUTTONS*/
+
+button:hover {
+    background-color: gold;
+}
+
+button {
+    /*width: 100%;*/
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    font-size: auto; 
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+button img {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+
+/*TABLE STYLING*/
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Collapses borders into a single line */
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddddddc0; /* Adds a horizontal divider */
+}
+
+th {
+  background-color: rgb(212, 161, 7);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leftside {
+    float: left;
+    width: 45%;
+}
+
+.rightside {
+    float: right;
+    width: 45%;
+}
+
+
+
+/*CLASSES OFFERED FIX*/
+
+
